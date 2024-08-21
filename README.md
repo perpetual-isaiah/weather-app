@@ -17,7 +17,7 @@ script.js: Contains JavaScript for fetching weather data and managing user inter
 images/background.jpeg: The background image used in the application (verify the path is correct).
 
 Troubleshooting
-. API Key: default 'a38d09f75f8bf4663d0007cd7fe34c14'
+. API Key: default located in script.js
 . API Key Error: Verify that your API key in script.js is entered correctly and is not expired or invalid.
 . City Not Found: Check the spelling of the city name or ensure it is a valid city.
 
