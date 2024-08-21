@@ -1,0 +1,68 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('images/background.jpeg'); /* Update path if necessary */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    max-width: 500px;
+    width: 100%; /* Make sure it adjusts to screen width */
+}
+
+/* Weather result styling */
+#weatherResult {
+    margin-bottom: 20px;
+}
+
+#weatherResult i {
+    font-size: 48px; /* Adjust size */
+    color: #333; /* Adjust color */
+    margin-right: 10px; /* Spacing */
+}
+
+#weatherResult span {
+    font-size: 24px; /* Adjust text size */
+}
+
+/* Forecast styling */
+#forecast {
+    display: flex;
+    flex-wrap: nowrap; /* Keep items in a single row */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    gap: 20px;
+    padding: 10px 0; /* Space around the forecast */
+}
+
+/* Individual forecast day styling */
+.forecast-day {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 0 0 auto; /* Prevent shrinking */
+    min-width: 150px; /* Minimum width for each forecast item */
+}
+
+.forecast-day i {
+    font-size: 24px;
+    color: #333;
+}
+
+.forecast-day p {
+    margin: 5px 0;
+}
